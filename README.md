@@ -16,7 +16,8 @@ Este repositorio contém meu portifólio online e este README a descrição de s
 
 ## Funcionalidade JS
 
-O portfólio possui um icone no canto superior direito que quando clicado mudará o tema de cores da página
+O portfólio possui um icone no canto superior direito que quando clicado mudará o tema de cores da página \
+essa mudança é feita pelo arquivo `darkmode.js`
 
 
 
