@@ -1,0 +1,54 @@
+body{
+    color: white;
+    background-color: black;
+}
+header img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.perfil{
+    text-align: center;
+}
+p{
+    color: white;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 5px solid yellow;
+    padding: 20px 40px;
+    padding: 10px 20px;    
+    max-width: 400px;       
+    margin: 20px auto;     
+    gap: 10px;             
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contatos{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;           
+    margin-top: 20px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column; /* coloca imagem em cima e texto embaixo */
+    align-items: center;
+}
+
+.item img {
+    width: 60px;
+    height: 60px;
+}
