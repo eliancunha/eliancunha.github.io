@@ -1,7 +1,35 @@
+:root{
+     --background-color: black;
+     --text-color1: white;
+     --border-color: yellow;
+     --base-variant: white;
+}
+
+.darkmode{
+     --background-color: white;
+     --text-color1: blue;
+     --border-color: rgb(179, 0, 179);
+     --base-variant: black;
+
+}
+
+#theme-switch{
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    border-radius: 50%;
+    background-color: var(--base-variant);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
 
 body {
-    background-color: black;
-    color: white;
+    background-color:var(--background-color);
+    color: var(--text-color1);
     margin: 0;
     padding: 0;
 
@@ -14,7 +42,7 @@ body {
 }
 
 .container {
-    border: 4px solid yellow;
+    border: 4px solid var(--border-color);
     border-radius: 20px;
 
     padding: 20px 30px;

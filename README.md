@@ -14,6 +14,10 @@ Este repositorio contém meu portifólio online e este README a descrição de s
 `style2.css`: É o arquivo css responsável por editar o `Sobre.html` \
 `style3.css`: É o arquivo css responsável por editar o `Projetos.html` 
 
+## Funcionalidade JS
+
+O portfólio possui um icone no canto superior direito que quando clicado mudará o tema de cores da página
+
 
 
 

@@ -1,6 +1,33 @@
+:root{
+     --background-color: black;
+     --text-color1: white;
+     --text-color2: white;
+     --border-color: yellow;
+     --base-variant: white;
+}
+.darkmode{
+     --background-color: white;
+     --text-color1: blue;
+     --text-color2: blue;
+     --border-color: rgb(179, 0, 179);
+     --base-variant: black;
+}
+#theme-switch{
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    border-radius: 50%;
+    background-color: var(--base-variant);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
 body{
-    color: white;
-    background-color: black;
+    color: var(--text-color1);
+    background-color:var(--background-color);
 }
 header img{
     width: 150px;
@@ -12,7 +39,7 @@ header img{
     text-align: center;
 }
 p{
-    color: white;
+    color: var(--text-color2);
 }
 section{
     display: flex;
@@ -20,7 +47,7 @@ section{
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    border: 5px solid yellow;
+    border: 5px solid var(--border-color);
     padding: 20px 40px;
     padding: 10px 20px;    
     max-width: 400px;       
@@ -44,7 +71,7 @@ ul{
 
 .item {
     display: flex;
-    flex-direction: column; /* coloca imagem em cima e texto embaixo */
+    flex-direction: column; 
     align-items: center;
 }
 
